@@ -4,7 +4,7 @@ The customer-facing web app for **Whatly** (WhatsApp Business automation for
 Indian SMBs). Next.js 15 (App Router) PWA — landing page, signup/verify,
 owner dashboard, inbox, settings, onboarding.
 
-> **Backend lives in a separate repo:** `Whatly-business`
+> **Backend lives in a separate repo:** `Whatly-backend`
 > (FastAPI + Postgres + Redis + Celery). This app talks to it over `/api/*`.
 
 ---
@@ -15,7 +15,7 @@ owner dashboard, inbox, settings, onboarding.
 |---|---|
 | Node.js | 20 LTS+ |
 | npm | 10+ (ships with Node) |
-| Backend running | `Whatly-business` on `http://localhost:8000` |
+| Backend running | `Whatly-backend` on `http://localhost:8000` |
 
 ---
 
@@ -51,7 +51,7 @@ npm run dev
 ```
 Open **http://localhost:3000**.
 
-(Make sure the backend is up first — see the `Whatly-business` README.)
+(Make sure the backend is up first — see the `Whatly-backend` README.)
 
 ---
 
